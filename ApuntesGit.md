@@ -1,4 +1,4 @@
-## Configuración Básica
+## Configuración del Git
 
 Configurar Nombre que salen en los commits
 ```ssh
