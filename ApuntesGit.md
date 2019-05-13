@@ -39,13 +39,9 @@ subimos al repositorio
 ## GIT CLONE
 
 
-Clonamos el repositorio de github o bitbucket
+Clonamos el repositorio de github
 ```ssh
 	git clone <url>
-```
-Clonamos el repositorio de github o bitbucket ?????
-```ssh
-	git clone <url> git-demo
 ```
 
 ## GIT ADD
@@ -89,7 +85,7 @@ De haber conflictos los muestra
 ```ssh
 	git commit -a 
 ```
-Agregar al ultimo commit, este no se muestra como un nuevo commit en los logs. Se puede especificar un nuevo mensaje
+Agregar al ultimo commit, este no se muestra como un nuevo commit en los logs. Se puede especificar un nuevo mensaje.
 ```ssh
 	git commit --amend -m "Texto que identifique por que se hizo el commit"
 ```
@@ -205,7 +201,7 @@ Crea un nuevo tags
 
 Los rebase se usan cuando trabajamos con branches esto hace que los branches se pongan al día con el master sin afectar al mismo
 
-Une el branch actual con el mastar, esto no se puede ver como un merge
+Une el branch actual con el mastar, esto no se puede ver como un merge.
 ```ssh
 	git rebase
 ```
